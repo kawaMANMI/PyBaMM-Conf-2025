@@ -1,6 +1,6 @@
-# Comparison of SEI Zero-dimensional Models
+# Comparison of SEI Zero-dimensional Models (in PyBaMM)
 
-This repository contains the analysis code and results for comparing different common zero-dimensional models (limited mechanisms) for solid electrolyte interphase (SEI) growth in lithium-ion batteries, focusing on the formation cycle and early cycles.
+This repository contains the analysis code and results for comparing common zero-dimensional solid electrolyte interphase (SEI) models (limited mechanisms) in [PyBaMM](https://github.com/pybamm-team/PyBaMM) in lithium-ion batteries, focusing on the formation cycle and early cycles.
 
 ## Overview
 
@@ -12,21 +12,21 @@ The project examines various SEI growth models including:
 - Interstitial-diffusion limited
 - VonKolzenberg2020
 
-Key aspects analyzed:
-- SEI growth behavior during formation cycles
+Key aspects analysed:
+- SEI growth behaviour during formation cycles
 - Comparison between charging and discharging periods
 - Impact of C-rate on SEI growth patterns
 - Model validation against experimental data
 
 ## Requirements
 
-This code requires PyBaMM version 25.1.0. The analysis was performed using this specific version to ensure reproducibility of results.
+This code requires PyBaMM version 25.1.0 or newer. The analysis was performed using this specific version to ensure the reproducibility of the results.
 
 ## Repository Structure
 
 - `notebooks/`
   - `Initial_soc_VS_C-rate.ipynb`: Analysis of how initial state of charge affects SEI growth
-  - `order_chVSdisch.ipynb`: Comparison of SEI growth during charge vs discharge cycles
+  - `sei_ch-VS-dch.ipynb`: Comparison of SEI growth during charge vs discharge cycles
 
 ## Results
 
@@ -40,7 +40,8 @@ The analysis reveals several key findings:
 If you use this code or results in your research, please cite:
 
 ```
-K. Manmi, M. Tuchel, E. Kendrick, F. Brosa Planella, "A Comparison of Standard SEI Growth Models in the Context of Battery Formation", J. Electrochem. Soc., Accepted (2024).
+K. Manmi, M. Tuchel, E. Kendrick, F. Brosa Planella, "A Comparison of Standard SEI Growth Models in the Context of Battery Formation", [J. Electrochem. Soc. 171 100530]
+(https://iopscience.iop.org/article/10.1149/1945-7111/ad8548).
 ```
 
 ## License
