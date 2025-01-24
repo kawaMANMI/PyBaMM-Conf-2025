@@ -40,7 +40,7 @@ The analysis reveals several key findings:
 If you use this code or results in your research, please cite:
 
 ```
-K. Manmi, M. Tuchel, E. Kendrick, F. Brosa Planella, "A Comparison of Standard SEI Growth Models in the Context of Battery Formation", [J. Electrochem. Soc. 171 100530](https://iopscience.iop.org/article/10.1149/1945-7111/ad8548).
+K. Manmi, M. Tuchel, E. Kendrick, F. Brosa Planella, "A Comparison of Standard SEI Growth Models in the Context of Battery Formation", ![J. Electrochem. Soc. 171 100530](https://iopscience.iop.org/article/10.1149/1945-7111/ad8548).
 ```
 
 ## License
