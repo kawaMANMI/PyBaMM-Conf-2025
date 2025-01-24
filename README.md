@@ -49,4 +49,4 @@ This project is licensed under the BSD-3-Clause license.
 
 ## Acknowledgments
 
-This work was supported by The Faraday Institution "Multi-Scale Modelling" project [EP/S003053/1 grant number FIRG059].
+This work was supported by The Faraday Institution "Multi-Scale Modelling" project [EP/S003053/1 grant number FIRG059] Under supervision [Dr. Ferran Brosa Planella](https://github.com/brosaplanella)
