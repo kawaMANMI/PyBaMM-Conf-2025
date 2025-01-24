@@ -1,6 +1,6 @@
 # Comparison of SEI Zero-dimensional Models (in PyBaMM)
 
-This repository contains the analysis code and results for comparing common zero-dimensional solid electrolyte interphase (SEI) models (limited mechanisms) in [PyBaMM](https://github.com/pybamm-team/PyBaMM) in lithium-ion batteries, focusing on the formation cycle and early cycles.
+This repository contains the analysis code and results for comparing [common zero-dimensional solid electrolyte interphase (SEI) models](https://github.com/mmsg-warwick/zero-dimension-comparison-SEI/tree/main) (limited mechanisms) in [PyBaMM](https://github.com/pybamm-team/PyBaMM) in lithium-ion batteries, focusing on the formation cycle and early cycles.
 
 ## Overview
 
