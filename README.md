@@ -23,30 +23,27 @@ Key aspects analysed:
 This code requires PyBaMM version 25.1.0 or newer. The analysis was performed using this specific version to ensure the reproducibility of the results.
 
 
-## 🚀 Installation Instructions
-These instructions assume that you have a compatible Python version installed (between 3.9 and 3.12).
+### Linux and macOS
+
 1. Clone the repository:
 ```bash
 git clone https://github.com/kawaMANMI/PyBaMM-Conf-2025
+cd PyBaMM-Conf-2025
 ```
 
-2. Install nox if not already installed:
+2. Create a virtual environment:
 ```bash
-python3 -m pip install nox
+python3 -m venv venv
 ```
 
-3. Navigate to the cloned repository and create a virtual environment:
+3. Activate the virtual environment:
 ```bash
-nox -s dev
+source venv/bin/activate
 ```
 
-4. Activate the virtual environment:
+4. Install required packages:
 ```bash
-source env/bin/activate
-```
-
-5. Install required packages:
-```bash
+pip install --upgrade pip
 pip install pybamm[all]
 ```
 
@@ -60,19 +57,15 @@ deactivate
 1. Clone the repository:
 ```bash
 git clone https://github.com/kawaMANMI/PyBaMM-Conf-2025
+cd PyBaMM-Conf-2025
 ```
 
-2. Install nox if not already installed:
+2. Create a virtual environment:
 ```bash
-python3 -m pip install nox
+python -m venv venv
 ```
 
-3. Navigate to the cloned repository and create a virtual environment:
-```bash
-nox -s dev
-```
-
-4. Activate the virtual environment:
+3. Activate the virtual environment:
    - For Command Prompt:
    ```bash
    venv\Scripts\activate.bat
@@ -82,8 +75,9 @@ nox -s dev
    venv\Scripts\Activate.ps1
    ```
 
-5. Install required packages:
+4. Install required packages:
 ```bash
+pip install --upgrade pip
 pip install pybamm[all]
 ```
 
@@ -91,6 +85,7 @@ To deactivate the virtual environment when finished:
 ```bash
 deactivate
 ```
+
 ## Repository Structure
 
 - `notebooks/`
