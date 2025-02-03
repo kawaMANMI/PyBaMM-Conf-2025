@@ -43,9 +43,11 @@ source venv/bin/activate
 
 4. Install required packages:
 ```bash
-pip install --upgrade pip
 pip install pybamm[all]
 ```
+
+After installation, you can run any of the notebooks.
+
 
 To deactivate the virtual environment when finished:
 ```bash
@@ -77,7 +79,6 @@ python -m venv venv
 
 4. Install required packages:
 ```bash
-pip install --upgrade pip
 pip install pybamm[all]
 ```
 
